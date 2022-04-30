@@ -7,7 +7,7 @@ Para esta tarea tenemos como objetivo construir la aplicación de PokeTrivia. La
 - Crear la función "restart". En el archivo app.js encontrará todas las instrucciones necesarias acerca de lo que debe realizar esta función.
 
 #### En archivo events.js
-- Modiicar los eventos, en vez de utilizar "addEventListener" utilizar la propiedad "on-event".
+- Modificar los eventos, en vez de utilizar "addEventListener" utilizar la propiedad "on-event".
 - Agregar evento de "onclick" sobre el boton de "send" para evaluar el resultado de la trivia:
 - * Se debe capturar el texto ingresado en el elemento "input".
 - * Se debe evaluar si hay texto allí (que no se haya presionado el botón si colocar texto).
