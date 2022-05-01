@@ -8,8 +8,8 @@
 /* 1 - Enunciado
 
 Transforme todos los eventos a continuación a eventos con on-event
-Verifique que en consola no figura ningún error en alguno de ellos
-y continue funcionando con el boton del HTML
+Verifique que en la consola no figura ningún error en alguno de ellos
+Verifique que en la consola sigan apereciendo los mensajes de log
 
 */
 
