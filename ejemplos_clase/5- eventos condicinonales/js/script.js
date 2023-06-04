@@ -1,15 +1,15 @@
 "use strict";
 
 const select = document.querySelector('select');
-// Usamos "html" para seleccionar el padre de todos los
-// elementos, es decir, el html en si.
-const html = document.querySelector('html');
+// Usamos "body" para seleccionar el padre
+// de todos los elementos
+const body = document.querySelector('body');
 
 console.log("Evento de onclick con on-event");
 
 function update(bgColor, textColor) {
-    html.style.backgroundColor = bgColor;
-    html.style.color = textColor;
+    body.style.backgroundColor = bgColor;
+    body.style.color = textColor;
 }
  
 select.onchange = () => {

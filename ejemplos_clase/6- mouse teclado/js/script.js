@@ -20,9 +20,9 @@ button.onmousemove = () => {
 console.log("Eventos de teclado");
 
 const input = document.querySelector('input');
-const html = document.querySelector('html');
+const body = document.querySelector('body');
 
-html.onkeydown = (e) => {
+body.onkeydown = (e) => {
     const keycode = e.keyCode;
     input.value = keyboardMap[keycode];
 }
